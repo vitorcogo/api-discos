@@ -1,0 +1,53 @@
+.image-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.image-item:hover {
+  transform: scale(0.99);
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+}
+
+.text-center {
+  margin-bottom: 30px;
+}
+
+#modalTitle {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.loading,
+.error-message,
+.image-gallery {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .image-col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-col {
+    width: 48%;
+  }
+}
